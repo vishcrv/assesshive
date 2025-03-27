@@ -44,7 +44,7 @@ Technology Stack
 •	Authentication: Clerk
 Installation & Setup
 1.	Clone the Repository
-2.	git clone https://github.com//Kaakay/assesshive.git
+2.	git clone https://github.com/vishcrv/assesshive
 3.	cd assesshive
 4.	Install Dependencies
 5.	npm install
@@ -58,8 +58,3 @@ Future Enhancements
 •	Adaptive Testing for Dynamic Difficulty Adjustments
 •	Enhanced Reporting & Insights for Faculty & Admin
 •	Student flagging
-Contributors
-•	Vishnu CV – 23BRS1153
-•	Kaavya Ravichandran- 23BDS1108
-•	Harishni A – 23BDS1070
-•	Kavya G – 23BDS1132
