@@ -148,20 +148,12 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 1.2 }}
           className="mt-12 mb-8 text-center"
         >
-          <p className="text-xl font-semibold mb-6">Revolutionize Your Online Exams Today! Sign Up Now and Experience the Future of MCQ-Based Assessments.</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              Sign Up for Free
-            </button>
-            <button className="px-8 py-3 bg-gray-200 dark:bg-gray-800 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors">
-              Schedule a Demo
-            </button>
-          </div>
+          
         </motion.div>
       </div>
 
       <footer className="p-4 text-center bg-gray-100 dark:bg-gray-900">
-        <p className="text-sm">© 2023 Exam Management App. All rights reserved.</p>
+        <p className="text-sm">© vishnu cv - 23brs1153 - web programming project</p>
       </footer>
     </div>
   );
