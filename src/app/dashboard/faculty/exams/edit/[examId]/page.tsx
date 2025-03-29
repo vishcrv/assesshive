@@ -42,9 +42,8 @@ interface ExamQuestion {
 }
 
 export default function EditExam({ params }: { params: { examId: string } }) {
-  // Use React.use with proper typing
-  const unwrappedParams = React.use(params as any) as { examId: string };
-  const examId = unwrappedParams.examId;
+  // Remove the React.use call which is causing the error
+  const examId = params.examId;
   
   const router = useRouter()
   const [formData, setFormData] = useState(mockExam)

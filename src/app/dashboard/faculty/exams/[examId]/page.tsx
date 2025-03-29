@@ -107,9 +107,7 @@ const getStatusColor = (status: string) => {
 }
 
 export default function ExamDetail({ params }: { params: { examId: string } }) {
-  // Use React.use with proper typing
-  const unwrappedParams = React.use(params as any) as { examId: string };
-  const examId = unwrappedParams.examId;
+  const examId = params.examId;
   const router = useRouter()
   const [exam, setExam] = useState<Exam | null>(null)
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false)
